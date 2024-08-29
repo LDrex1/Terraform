@@ -1,0 +1,8 @@
+# .terraform directory
+.terraform/
+# Ignore editor-specific files
+.vscode/
+
+# Ignore sensitive files with AWS credentials or secrets
+.aws/
+*.env
